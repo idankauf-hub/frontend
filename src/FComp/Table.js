@@ -6,8 +6,8 @@ export default function Table() {
   const [dataRow,setData]=useState([Data]);
 
   const columns = [
-    { field: 'asset', headerName: 'Asset', width: 70 },
-    { field: 'ip', headerName: 'IP Address', width: 120 },
+    { field: 'asset', headerName: 'Asset', width: 360 },
+    { field: 'ip', headerName: 'IP Address', width: 760 },
     
   ];
   
